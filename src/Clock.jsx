@@ -1,11 +1,12 @@
 import React from 'react';
 import clock from './images/clock.png';
+import { Container } from 'react-bootstrap';
 class Clock extends React.Component{
     render(){
         return(
-                <div className="clock-img">
+                <Container>
                 <img src={clock} alt="Clock" className="img-responsive clock-img"/>
-                </div>
+                </Container>
         );
     }
 }
